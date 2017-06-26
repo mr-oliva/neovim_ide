@@ -1,0 +1,6 @@
+FROM centos:6.9
+RUN mkdir -p /root/.config/nvim
+COPY config/nvim/init.vim /root/.config/nvim/init.vim
+COPY config/nvim/dein.toml /root/.config/nvim/dein.toml
+
+
